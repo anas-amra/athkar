@@ -58,6 +58,9 @@
             android:name=".nightmode"
             android:exported="false" />
         <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

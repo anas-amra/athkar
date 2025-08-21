@@ -6,162 +6,128 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.example.test.adapters.AthkarAdapter;
+import com.example.test.models.Athkar;
+
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
+    GridView gv ;
+    ArrayList<Athkar> athkarArrayList;
+    AthkarAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout morning_pray = findViewById(R.id.morning_pray);
-        LinearLayout evening_pray = findViewById(R.id.evening_pray);
-        LinearLayout travel = findViewById(R.id.travel);
-        LinearLayout mosque = findViewById(R.id.mosque);
-        LinearLayout wake_up = findViewById(R.id.wake_up);
-        LinearLayout sleep_pray = findViewById(R.id.sleep_pray);
-        LinearLayout tasbeeh = findViewById(R.id.tasbeeh);
-        LinearLayout elec_sebha = findViewById(R.id.elec_sebha);
-        LinearLayout athkar_pray = findViewById(R.id.athkar_pray);
-        LinearLayout after_pray = findViewById(R.id.after_pray);
-        LinearLayout athan = findViewById(R.id.athan);
-        LinearLayout istekhara = findViewById(R.id.istekhara);
-        LinearLayout casket = findViewById(R.id.casket);
-        LinearLayout loan = findViewById(R.id.loan);
+        gv = findViewById(R.id.gv_athkar);
+        athkarArrayList = new ArrayList<>();
+        athkarArrayList.add(new Athkar(1,R.drawable.sun, "أذكار الصباح", "morning"));
+        athkarArrayList.add(new Athkar(2,R.drawable.crescentmoon64, "أذكار المساء", "evening"));
+        athkarArrayList.add(new Athkar(3,R.drawable.travel, "دعاء السفر", "travel"));
+        athkarArrayList.add(new Athkar(4,R.drawable.mosque, "دعاء الذهاب للمسجد", "mosque"));
+        athkarArrayList.add(new Athkar(5,R.drawable.alarmclock, "دعاء الاستيقاظ", "wake_up"));
+        athkarArrayList.add(new Athkar(6,R.drawable.sleep, "دعاء قبل النوم", "sleep"));
+        athkarArrayList.add(new Athkar(7,R.drawable.carpet, "تسابيح", "tasbeeh"));
+        athkarArrayList.add(new Athkar(8,R.drawable.tasbih, "مسبحة إلكترونية", "digital_tasbeeh"));
+        athkarArrayList.add(new Athkar(9,R.drawable.pray, "أذكار الصلاة", "prayer_azkar"));
+        athkarArrayList.add(new Athkar(10,R.drawable.pray2, "بعد الصلاة", "after_prayer"));
+        athkarArrayList.add(new Athkar(11,R.drawable.adzan, "سماع الأذان", "athan"));
+        athkarArrayList.add(new Athkar(12,R.drawable.pray4, "دعاء الاستخارة", "istikharah"));
+        athkarArrayList.add(new Athkar(13,R.drawable.casket, "صلاة الجنازة", "janazah"));
+        athkarArrayList.add(new Athkar(14,R.drawable.loan, "دعاء قضاء الدين", "loan"));
+
+        adapter = new AthkarAdapter(MainActivity.this,athkarArrayList);
+        gv.setAdapter(adapter);
+
+        //click and go to the page
+        gv.setOnItemClickListener((parent, view, position, id) -> {
+
+            Athkar item = athkarArrayList.get(position);
+            //open page based on key
+            switch (item.getKey()) {
+                case "morning":
+                    startActivity(new Intent(this, morning.class));
+                    Toast.makeText(MainActivity.this, "اذكار الصباح", Toast.LENGTH_SHORT).show();
+                    break;
+
+                case "evening":
+                    startActivity(new Intent(this, evening.class));
+                    Toast.makeText(MainActivity.this, "اذكار المساء", Toast.LENGTH_SHORT).show();
+                    break;
+
+                case "travel":
+                    startActivity(new Intent(this, travel.class));
+                    Toast.makeText(MainActivity.this, "دعاء السفر", Toast.LENGTH_SHORT).show();
+                    break;
+
+                case "mosque":
+                    startActivity(new Intent(this, mosque.class));
+                    Toast.makeText(MainActivity.this, "دعاء الذهاب للمسجد", Toast.LENGTH_SHORT).show();
+                    break;
+                case "wake_up":
+                    startActivity(new Intent(this, wake_up.class));
+                    Toast.makeText(MainActivity.this, "دعاء الاستيقاظ", Toast.LENGTH_SHORT).show();
+                    break;
+                case "sleep":
+                    startActivity(new Intent(this, sleep_pray.class));
+                    Toast.makeText(MainActivity.this, "دعاء قبل النوم", Toast.LENGTH_SHORT).show();
+                    break;
+                case "tasbeeh":
+                    startActivity(new Intent(this, tasbeeh.class));
+                    Toast.makeText(MainActivity.this, "تسابيح", Toast.LENGTH_SHORT).show();
+                    break;
+                case "digital_tasbeeh":
+                    startActivity(new Intent(this, elec_sebha.class));
+                    Toast.makeText(MainActivity.this, "مسبحة الكترونية", Toast.LENGTH_SHORT).show();
+                    break;
+                case "prayer_azkar":
+                    startActivity(new Intent(this, athkar_pray.class));
+                    Toast.makeText(MainActivity.this, "اذكار الصلاة", Toast.LENGTH_SHORT).show();
+                    break;
+                case "after_prayer":
+                    startActivity(new Intent(this, after_pray.class));
+                    Toast.makeText(MainActivity.this, "بعد الصلاة", Toast.LENGTH_SHORT).show();
+                    break;
+                case "athan":
+                    startActivity(new Intent(this, athan.class));
+                    Toast.makeText(MainActivity.this, "سماع الاذان", Toast.LENGTH_SHORT).show();
+                    break;
+                case "istikharah":
+                    startActivity(new Intent(this, istekhara.class));
+                    Toast.makeText(MainActivity.this, "دعاء الاستخارة", Toast.LENGTH_SHORT).show();
+                    break;
+                case "janazah":
+                    startActivity(new Intent(this,casket.class));
+                    Toast.makeText(MainActivity.this, "صلاة الجنازة", Toast.LENGTH_SHORT).show();
+                    break;
+                case "loan":
+                    startActivity(new Intent(this,loan.class));
+                    Toast.makeText(MainActivity.this, "دعاء قضاء الدين", Toast.LENGTH_SHORT).show();
+                    break;
 
 
-
-
-        // morning_pray------------------------------------------------
-        morning_pray.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent morning_intent = new Intent(MainActivity.this, morning.class);
-                startActivity(morning_intent);
-                Toast.makeText(MainActivity.this, "اذكار الصباح", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // evening_pray------------------------------------------------
-        evening_pray.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent evening_intent = new Intent(MainActivity.this, evening.class);
-                startActivity(evening_intent);
-                Toast.makeText(MainActivity.this, "اذكار المساء", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // travel------------------------------------------------
-        travel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent travel_intent = new Intent(MainActivity.this, travel.class);
-                startActivity(travel_intent);
-                Toast.makeText(MainActivity.this, "دعاء السفر", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // mosque------------------------------------------------
-        mosque.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent mosque_intent = new Intent(MainActivity.this, mosque.class);
-                startActivity(mosque_intent);
-                Toast.makeText(MainActivity.this, "دعاء الذهاب للمسجد", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // wake_up------------------------------------------------
-        wake_up.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent wake_up_intent = new Intent(MainActivity.this, wake_up.class);
-                startActivity(wake_up_intent);
-                Toast.makeText(MainActivity.this, "دعاء الاستيقاظ", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // sleep_pray------------------------------------------------
-        sleep_pray.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent sleep_pray_intent = new Intent(MainActivity.this, sleep_pray.class);
-                startActivity(sleep_pray_intent);
-                Toast.makeText(MainActivity.this, "دعاء قبل النوم", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // tasbeeh------------------------------------------------
-        tasbeeh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent tasbeeh_intent = new Intent(MainActivity.this, tasbeeh.class);
-                startActivity(tasbeeh_intent);
-                Toast.makeText(MainActivity.this, "تسابيح", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // elec_sebha------------------------------------------------
-        elec_sebha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent elec_sebha_intent = new Intent(MainActivity.this, elec_sebha.class);
-                startActivity(elec_sebha_intent);
-                Toast.makeText(MainActivity.this, "مسبحة الكترونية", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // athkar_pray------------------------------------------------
-        athkar_pray.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent athkar_pray_intent = new Intent(MainActivity.this, athkar_pray.class);
-                startActivity(athkar_pray_intent);
-                Toast.makeText(MainActivity.this, "اذكار الصلاة", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // after_pray------------------------------------------------
-        after_pray.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent after_pray_intent = new Intent(MainActivity.this, after_pray.class);
-                startActivity(after_pray_intent);
-                Toast.makeText(MainActivity.this, "بعد الصلاة", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // athan------------------------------------------------
-        athan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent athan_intent = new Intent(MainActivity.this, athan.class);
-                startActivity(athan_intent);
-                Toast.makeText(MainActivity.this, "سماع الاذان", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // istekhara------------------------------------------------
-        istekhara.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent istekhara_intent = new Intent(MainActivity.this, istekhara.class);
-                startActivity(istekhara_intent);
-                Toast.makeText(MainActivity.this, "دعاء الاستخارة", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // casket------------------------------------------------
-        casket.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent casket_intent = new Intent(MainActivity.this, casket.class);
-                startActivity(casket_intent);
-                Toast.makeText(MainActivity.this, "صلاة الجنازة", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // loan------------------------------------------------
-        loan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent loan_intent = new Intent(MainActivity.this, loan.class);
-                startActivity(loan_intent);
-                Toast.makeText(MainActivity.this, "دعاء قضاء الدين", Toast.LENGTH_SHORT).show();
             }
         });
 
 
+        ImageView iv_settings = findViewById(R.id.iv_settings);
+        iv_settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                Intent settings_intent = new Intent(MainActivity.this , settings.class);
+                Intent settings_intent = new Intent(MainActivity.this, settings.class);
+                startActivity(settings_intent);
+                Toast.makeText(MainActivity.this, "الاعدادات", Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
 
