@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_sun.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\sun.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_pray2.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\pray2.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_mosque.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_mosque.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_travel.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\travel.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_after_pray.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_after_pray.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_istekhara.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_istekhara.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_athkar_pray.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_athkar_pray.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_athkar_card_design.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\athkar_card_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_sleep_pray.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_sleep_pray.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_travel.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_travel.xml"
+    },
+    {
+        "merged": "com.example.test.app-merged_res-31:/drawable_bg_button_primary.xml.flat",
+        "source": "com.example.test.app-main-33:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_elec_sebha.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_elec_sebha.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_mosque.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\mosque.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_morning.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_morning.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_sleep.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\sleep.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_tasbih.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\tasbih.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_wake_up.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_wake_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_casket.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\casket.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_settings_50.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\settings_50.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_pray4.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\pray4.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_rounded_card.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\rounded_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_bg_panel_rounded.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\bg_panel_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_loan.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\loan.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_adzan.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\adzan.png"
+    },
+    {
+        "merged": "com.example.test.app-merged_res-31:/layout_fragment_text_size.xml.flat",
+        "source": "com.example.test.app-main-33:/layout/fragment_text_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_loan.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_loan.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_crescentmoon64.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\crescentmoon64.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_rounded_titlebar.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\rounded_titlebar.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_tasbeeh.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_tasbeeh.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_back_50.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\back_50.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_athan.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_athan.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_fragment_text_size.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\fragment_text_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_nightmode.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_nightmode.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_carpet.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\carpet.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_casket.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_casket.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_alarmclock.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\alarmclock.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_pray.png.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\pray.png"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\drawable_bg_button_primary.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\drawable\\bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\layout_activity_evening.xml.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\layout\\activity_evening.xml"
+    },
+    {
+        "merged": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\anasa\\.gradle\\daemon\\8.0\\com.example.test.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    }
+]
